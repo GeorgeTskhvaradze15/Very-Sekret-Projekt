@@ -1,0 +1,158 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 30px , 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+ }
+ .logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+ }
+
+ .logo span {
+    color: #7d2ea8;
+ }
+
+ .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+ }
+
+ .navigation a {
+    font-size: 1.1em;
+    color: #555;
+    margin-right: 40x;
+    font-weight: 500;
+    transition: 0.3s;
+    text-decoration: none;
+ }
+
+ .navigation p {
+   font-size: 1.1em;
+   color: #7d2ea8;
+   margin-right: 40x;
+   font-weight: 500;
+   text-decoration: none;
+}
+ 
+ .navigation a:hover {
+    color: #7d2ea8;
+ }
+
+ .btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    border-radius: 10px;
+    border-radius: 2px solid #7d2ea8;
+    font-weight: 500;
+    background: #7d2ea8;
+    transition: 0.3s;
+ }
+
+ .btn-talk:hover{
+    color: #7d2ea8;
+    background: transparent;
+ }
+
+ .home{
+    position: relative;
+    width: 100%;
+    background: url(../Images/biznasmen.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px 250px;
+ }
+
+ .content {
+    max-width: 500px;
+    color: #555;
+ }
+
+ .content h2 {
+    font-size:3em;
+ }
+
+ .content h2 span {
+    color: #7d2ea8;
+ }
+
+ .content h4 {
+    font-size: 2em;
+ }
+
+ .content p {
+    padding: 10px 0 40px 0
+ }
+
+ .btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #7d2ea8;
+    border-radius: 10px;
+    border: 2px solid #7d2ea8;
+    font-weight: 500;
+ }
+
+ .btn-group a:nth-child(2){
+    color: #7d2ea8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+ }
+
+ .btn-group a:hover:nth-child(2){
+    color: #fff;
+    background: #7d2ea8;
+ }
+
+ .btn-group a:hover:nth-child(1){
+    color: #7d2ea8;
+    background: transparent;
+ }
+
+ .social-icons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 340px;
+ }
+
+ .socials{
+    width: 50px;
+    height: 50px;
+    transition: 0,3;
+ }
+
+ .socials:hover{
+   transform: translateY(-5px);
+ }
+
+ .coming-soon{
+   font-size: 250px;
+ }
+
+ .coming-soon-sec{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
